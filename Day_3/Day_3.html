@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Day_3.css"/>
+    <style>
+        /*element selector*/
+        p{
+            color:cadetblue;
+        }
+        /*id selector*/
+        #ptag1{
+            font-size: 50px;
+        }
+        /*class selector*/
+        .ptag2{
+            font-size: 30px; font-style: italic
+        }
+        /*pseudo code selector*/
+        .ptag3:hover{ 
+            color: red; font-size: 30px;
+        }
+        /*psedu element selector*/
+        .ptag4::first-line{
+            color: black;
+        }
+        .ptag4::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+        #ptag5:hover{
+            color: violet;
+        }
+        #ptag5:active{
+            color: black;
+        }
+        #bg1{
+            /*background color*/
+            background-color: bisque;
+            width: 80vw;
+            height: 50vh;
+
+            overflow: scroll;
+            
+        }
+        #bg1 p{
+            font-size: 50px;
+            font-weight:bolder;
+            font-style: italic;
+            background-image: url(pc_wallpaper.jpg);
+            background-size: 500px;
+            background-repeat: no-repeat;
+            background-position: top right;
+          
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p style="font-size: 50px;">Mustang</p>
+        
+        <P id="ptag1">Bentley</P>
+
+        <p class="ptag2">Humer</p>
+        <p class="ptag2">Ferrari</p>
+
+        <p class="ptag3">Jaguar</p>
+
+        <p class="ptag4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vel maiores aperiam iste illum voluptatem provident, blanditiis ipsum sit ab minima omnis quod? In, libero eum voluptates recusandae nemo beatae delectus nobis iure porro debitis quod eius blanditiis incidunt cumque, unde tempora at ipsum laudantium illum! Consectetur rem voluptatum ducimus? </p>
+
+        <a id="ptag5" href="https://www.Youtube.com" target="_blank">Youtube</a>
+        
+
+    </div>
+    <div id="bg1">
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum hic velit atque eligendi id quia beatae corrupti praesentium doloremque iste quas ex repudiandae nesciunt magni excepturi tempora porro ut, ea illum aperiam maxime placeat cupiditate vel ratione. Aut fuga velit expedita atque vero autem eaque quisquam sunt cupiditate debitis. Laboriosam magnam hic magni incidunt dolore vero harum quia, odio aliquam odit. Architecto sequi vero consequuntur exercitationem saepe repudiandae delectus aspernatur odio accusantium. Cupiditate repellat nobis iure praesentium ullam suscipit magnam animi quia! Molestiae labore omnis ut ea quia distinctio iure quasi laudantium, dicta, nisi totam voluptas ipsam? Voluptatem, ipsum facere!</p>
+    </div>
+    
+</body>
+</html>
