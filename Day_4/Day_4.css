@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+}
+#a1 {
+    background-color: greenyellow;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+#m1{
+    width: 25vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 19px;
+}
+#m2{
+    margin: 20px;
+    border-radius: 100px;
+}
+input{
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+}
+#m3{
+    width: 25vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 19px;
+}
+#a2{
+    display: flex;
+    height: 100%;
+}
+#m4{
+    background-color: black;
+    width: 20vw;
+    height:90vh;
+    overflow: scroll;
+    color: whitesmoke;
+}
+#m4 p{
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+#m7{
+    margin-top: 50px;
+    height: 90vh;
+}
+#m5{
+    background-color: grey;
+    width: 60vw; 
+}
+#m5 p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#m6{
+    background-color: black;
+    width:20vw;
+    color: whitesmoke;
+}
+#m6 p{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#m10{
+    padding-left: 20px;
+    width:300px;
+    height: 25px;
+    text-align: center;
+}
+#m8{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.m12{
+    
+    display: flex;
+    overflow: scroll;
+    
+    height:max-content;
+    overflow: scroll;
+    color: rgb(14, 13, 13);
+    height: 90vh;
+} 
+.m13{
+    display: flex;
+}
+.m13 input{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 100px;
+}
+#m5 img{
+    margin-top: 15px;
+    width: 500px;
+}
