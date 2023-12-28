@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+#p1{
+    background-color: greenyellow;
+    height: 31vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    
+}
+#p2{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 160px;
+    outline: dashed;
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+@keyframes sun{
+    0%{
+        transform: translate(650px,25px);
+    }
+    100%{
+        transform: translate(20px,440px)
+    }
+
+}
+
+#p3{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 160px;
+    outline: dashed;
+    animation-name: moon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moon{
+    0%{
+      transform:translate(500px,400px)
+    }
+    100%{
+        transform: translate(20px,20px);
+    }
+}
+
+#p4{
+    height: 80vh;
+    animation-name: climatebg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes climatebg{
+    0%{
+        background-color:skyblue
+    }
+    100%{
+        background-color: black;
+    }
+}
+#p1:after{
+    
+}
