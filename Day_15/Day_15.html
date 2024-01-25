@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div id="d1">
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3">This is speedy</p>
+    <p id="p4"></p>
+    <p id="p5"></p><br>
+
+    <input type="text" id="cycle"><br>
+    <input type="text" id="mobat"><br>
+</div>
+
+<div class="d1">
+    <P class="p1">This is python</P>
+</div>
+
+<body>
+    <script>
+        // DOM-document object model
+        document.getElementById("p1").innerHTML="<a href=''>Javascript</a>"//it will print only words what given in in tag like a
+        document.getElementById("p2").innerText="<a>python</a>"//it will print whole thing what given in whole tag even it print a tag if given in 
+
+        let car=document.getElementById("p3").textContent
+        console.log(car)//it is getting p tag from HTML and printing by giving comments in javascript, that the output will print in HTML
+
+        document.getElementById("p4").innerHTML=car//it is copying content to print from another or previous tags
+
+
+        // creation
+        let red=document.createElement("bike")//creating new tag by javascript in HTML
+        red.innerHTML="jaguar"
+        document.getElementById("d1").appendChild(red)
+
+        // let green=document.createElementId("boat")
+        // green.innerHTML="bentley"
+        // document.getElementById("d1").before(green,document.getElementById("p3"))
+        
+
+        // styles using javascript
+        document.getElementById("p2").style.fontSize="50px"
+
+
+        document.getElementById("cycle").placeholder="enter the details"
+        document.getElementById("mobat").type="color"
+
+        // collections and nodes
+        let riveridexample=document.getElementById("p1")
+        let seaclassexample=document.getElementsByClassName("p1")
+        console.log(riveridexample)
+        console.log(seaclassexample[0].textContent)//class are in array so that it giving array.textcontent to print direct output as this is python
+
+
+
+        // bom-browser object model
+        // screen,navigator,history,alert,confirm,prompt,location
+        
+        // screen
+        console.log(window.screen.availWidth)
+
+        console.log(navigator.cookieEnabled)
+
+        // history.back()
+
+        // toast message
+        alert("user failed")
+
+        confirm("is this user?")
+
+        let input=prompt("enter the detalis")
+        console.log(input)
+
+        console.log(location.href)
+
+        // location.href="https://www.google.com"
+        // console.log(location.href)
+
+        console.log(location.port)
+
+        console.log(location.host)
+
+        console.log(location.hostname)
+
+        console.log(location.pathname)
+    </script>
+</body>
+</html>
